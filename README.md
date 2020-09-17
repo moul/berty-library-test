@@ -21,14 +21,10 @@
 
 [embedmd]:# (.tmp/usage.txt console)
 ```console
-foo@bar:~$ berty-library-test
-            _                                                   _                      _        _
- __ _  ___ | | __ _  _ _   __ _  ___  _ _  ___  _ __  ___  ___ | |_  ___  _ __   _ __ | | __ _ | |_  ___
-/ _` |/ _ \| |/ _` || ' \ / _` ||___|| '_|/ -_)| '_ \/ _ \|___||  _|/ -_)| '  \ | '_ \| |/ _` ||  _|/ -_)
-\__, |\___/|_|\__,_||_||_|\__, |     |_|  \___|| .__/\___/      \__|\___||_|_|_|| .__/|_|\__,_| \__|\___|
-|___/                     |___/                |_|                              |_|
-12 CPUs, /home/moul/go/bin/berty-library-test, fwrz, go1.15
-Hello World!
+foo@bar:~$ berty-library-test -h
+Usage of berty-library-test:
+  -addr string
+    	remote 'berty daemon' address (default "127.0.0.1:9091")
 ```
 
 ## Install

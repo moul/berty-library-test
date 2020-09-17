@@ -1,18 +1,16 @@
 package main
 
 import (
+	"flag"
 	"testing"
 
 	"go.uber.org/goleak"
 )
 
 func TestRun(t *testing.T) {
-	err := run(nil)
-	if err != nil {
-		t.Fatalf("err should be nil: %v", err)
+	goleak.VerifyNone(t, goleak.IgnoreCurrent())
+	err := run([]string{"", "-h"})
+	if err != flag.ErrHelp {
+		t.Fatalf("err should be flag.ErrHelp: %v", err)
 	}
-}
-
-func TestMain(m *testing.M) {
-	goleak.VerifyTestMain(m)
 }
