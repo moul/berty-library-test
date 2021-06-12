@@ -3,13 +3,13 @@ module moul.io/berty-library-test
 go 1.15
 
 require (
-	berty.tech/berty/v2 v2.148.0
-	github.com/gogo/protobuf v1.3.1
+	berty.tech/berty/v2 v2.290.0
+	github.com/gogo/protobuf v1.3.2
 	github.com/mdp/qrterminal/v3 v3.0.0
-	github.com/tailscale/depaware v0.0.0-20200914232109-e09ee10c1824
+	github.com/tailscale/depaware 77d1e9757027
 	go.uber.org/goleak v1.1.10
-	google.golang.org/grpc v1.30.0
-	moul.io/u v1.10.0
+	google.golang.org/grpc v1.38.0
+	moul.io/u v1.24.0
 )
 
 replace (
