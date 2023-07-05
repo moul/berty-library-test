@@ -8,7 +8,7 @@ require (
 	github.com/mdp/qrterminal/v3 v3.0.0
 	github.com/tailscale/depaware v0.0.0-20200914232109-e09ee10c1824
 	go.uber.org/goleak v1.1.10
-	google.golang.org/grpc v1.30.0
+	google.golang.org/grpc v1.53.0
 	moul.io/u v1.10.0
 )
 
