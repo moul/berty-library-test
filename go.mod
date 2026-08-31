@@ -4,7 +4,7 @@ go 1.15
 
 require (
 	berty.tech/berty/v2 v2.148.0
-	github.com/gogo/protobuf v1.3.1
+	github.com/gogo/protobuf v1.3.2
 	github.com/mdp/qrterminal/v3 v3.0.0
 	github.com/tailscale/depaware v0.0.0-20200914232109-e09ee10c1824
 	go.uber.org/goleak v1.1.10
